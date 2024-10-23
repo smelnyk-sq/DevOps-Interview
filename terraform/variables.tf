@@ -9,3 +9,9 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
+
+variable "name" {
+  description = "Ec2 instance name"
+  type        = string
+  default = ""
+}
